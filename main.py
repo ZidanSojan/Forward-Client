@@ -38,7 +38,7 @@ async def main(client: Client, message: Message):
         if not RUN["isRunning"]:
             RUN["isRunning"] = True
         await message.edit(
-            text=f"Hi, **{(await client.get_me()).first_name}**!\nThis is a Forwarder Userbot by @AbirHasan2005",
+            text=f"Hi, **{(await client.get_me()).first_name}**!\nThis is a Forwarder Userbot by @Kuntejs",
             disable_web_page_preview=True)
     elif (message.text == "!stop") and message.from_user.is_self:
         RUN["isRunning"] = False
