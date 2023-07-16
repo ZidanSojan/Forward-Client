@@ -6,22 +6,22 @@ import heroku3
 
 class Config(object):
     # Get This From @TeleORG_Bot
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = 9583161
+    API_HASH = "aecf9e2b7c655c4f916564ab6d598a73"
     # Get This From @StringSessionGen_Bot
-    STRING_SESSION = os.environ.get("STRING_SESSION")
+    STRING_SESSION = "BAAroiityN7CRvi-C-AawtX4_lZA3eve286UAxrbUKorri6zKKzouLy6bkAVGRAhAw486gs35Gyi6oCxTAfV_oa6zrPlqF8T-SjmsEQSz1d94xBfuXx2N-HmhOLK1bDlTihOw0sQ6NXpJChiIBsp3D9vQkjmFJXCaDQf751zEZw6iN5SaK6cTXkjs5LlTwM3c5c8kirm6hs6izXjEHm3mtbPO28fyH1OGi8M5tnW8K1G8EkJiQEGVqHaW67KnoLhgBgbaP0hBGmHiOiNRX6M8l8cm2wuJFcnLdIWtIMmiipTGob1oS2hrwYnX1uMNwYNtWtIyoKAijy63u4gcAqGZwwXAAAAAV_SufwA"
     # Forward From Chat ID
-    FORWARD_FROM_CHAT_ID = list(set(int(x) for x in os.environ.get("FORWARD_FROM_CHAT_ID", "-100").split()))
+    FORWARD_FROM_CHAT_ID = [-1001937992858]
     # Forward To Chat ID
-    FORWARD_TO_CHAT_ID = list(set(int(x) for x in os.environ.get("FORWARD_TO_CHAT_ID", "-100").split()))
+    FORWARD_TO_CHAT_ID = [-1001847988395]
     # Filters for Forwards
-    DEFAULT_FILTERS = "video document photo audio text gif forwarded poll sticker"
+    DEFAULT_FILTERS = "document forwarded"
     FORWARD_FILTERS = list(set(x for x in os.environ.get("FORWARD_FILTERS", DEFAULT_FILTERS).split()))
     BLOCKED_EXTENSIONS = list(set(x for x in os.environ.get("BLOCKED_EXTENSIONS", "").split()))
     MINIMUM_FILE_SIZE = os.environ.get("MINIMUM_FILE_SIZE", None)
     BLOCK_FILES_WITHOUT_EXTENSIONS = bool(os.environ.get("BLOCK_FILES_WITHOUT_EXTENSIONS", False))
     # Forward as Copy. Value Should be True or False
-    FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
+    FORWARD_AS_COPY = True
     # Sleep Time while Kang
     SLEEP_TIME = int(os.environ.get("SLEEP_TIME", 10))
     # Heroku Management
