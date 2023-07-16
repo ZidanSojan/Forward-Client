@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @Kuntejs
 
 from pyrogram.types import Message
 from configs import Config
