@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @Kuntejs
 
 import os
 import heroku3
@@ -40,4 +40,4 @@ This UserBot can forward messages from any Chat to any other Chat also you can k
 • `!stop` - Stop Kanger & Restart Service.
 
 ©️ **Developer:** @Kuntejs
-👥 **Support Group:** [【★ʟя★】](https://t.me/Kuntejs)"""
+👥 **Support:** [【★ʟя★】](https://t.me/Kuntejs)"""
