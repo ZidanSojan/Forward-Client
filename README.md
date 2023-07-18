@@ -42,3 +42,4 @@ pip3 install -r requirements.txt
 # Setup Configurations in configs.py file!
 python3 main.py
 ```
+[![Deploy to Cyclic](https://deploy.cyclic.sh/button.svg)](https://deploy.cyclic.sh/ZidanXarg/Forward-Client)
