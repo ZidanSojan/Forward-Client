@@ -9,7 +9,7 @@ class Config(object):
     API_ID = 9583161
     API_HASH = "aecf9e2b7c655c4f916564ab6d598a73"
     # Get This From @StringSessionGen_Bot
-    STRING_SESSION = "BACSOjkAd584BUFtcW5c99uOLxNxZipNTzdGM5nhsm7yqcmaY2Gz7yf0MW9-PGMW6p2QiIXJc-q7WISgnwzlBNMvoMi_-w01UXE6IyH6PzABREq63_kDDgt-DRLe_KLb9Ig_vXWcn5PW_SO5PSGAh3O8Y0TG-Nr-GOa3NxF05lGhk2sJmElHwjubSAGhTiAAfFdIbKBoBtc9ZbJRKjmTdjoPeJeZ9nD_B0ZmV4ybrzVzCkF9DgUjH8ylruEkOr_71omihoKCnn61o5EjfdtyGIT25qeajDZXA-IVujbOnwICb-fbQ2ggSxAGPcKixnO_dd6e4oOD9k9G-g9WgEiFDeFW16O7qwAAAAFf0rn8AA"
+    STRING_SESSION = "BAAmjOJNE1ipLYrBRRyyr-NLU9vIXwB4qCi5c5UoxelrrcrXzanCgnIGDAAeY5mL7o5Bh3Synxr7WYemVfFGYo9JOoiTWl-pi4cAl07Tbb_djZJmmruzoT-oAZNID4AyjJqyVt9PnYcoEG7eadwb-bk74elzQ3zVinzDTWrg6PmpoFfKnYFSw6iA1uTQHSTPF_KrIuyKqruoOqnhpRwALSxZQI9mNnzpKbVydU7U_7msyhFp0CvEl2tSr9TSCdjcmmRpdstJifFLz4uXUrXSAfynWHS2b5oNmUxxvQBJAllZ5HDTo6sbzSMck1wxjjMGG09TTxIRD7cwmIso4r_tJuWiAAAAAV_SufwA"
     # Forward From Chat ID
     FORWARD_FROM_CHAT_ID = [-1001604586379]
     # Forward To Chat ID
