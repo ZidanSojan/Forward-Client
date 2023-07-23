@@ -5,7 +5,7 @@ import heroku3
 
 
 class Config(object):
-    # Get This From @TeleORG_Bot
+    # Get This From @TelORG_Bot
     API_ID = 9583161
     API_HASH = "aecf9e2b7c655c4f916564ab6d598a73"
     # Get This From @StringSessionGen_Bot
