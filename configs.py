@@ -11,9 +11,9 @@ class Config(object):
     # Get This From @StringSessionGen_Bot
     STRING_SESSION = "BACSOjkAPYrhvupOoWSc9yBWhN75pYS_wtbpJze4Vy1gTnZHRixLKBNtYslWgfTBgEY9URW6ZZ8tHp2XJgu1vMshBybLooGSdUBueuTcIVJXLJZ4fYDdVDZJ5RmTWrsFtD7EuHnvIaIPlnTariEGZN0FZ-ZOWxoMfefn5UMJdieMTaff0S5dKuDgS5jd3irdv_vgmjmSUs8DTAWMp222HXo5T9PMCvxTNVbdZrJq2RRwGVRbviFukldk1leZMbhwXfEpPX26mC9UKMam-q0a-QIYMZi_mrRBpxZ5dqNRFFWGsIhH3HDMQOeDq7kR_IimH0VZug5RhrzvwT-MEKgK1ZqNwioFdgAAAAFf0rn8AA"
     # Forward From Chat ID
-    FORWARD_FROM_CHAT_ID = [-1001925654676]
+    FORWARD_FROM_CHAT_ID = [-1001795573811]
     # Forward To Chat ID
-    FORWARD_TO_CHAT_ID = [-1001975641001]
+    FORWARD_TO_CHAT_ID = [-1001300585373]
     # Filters for Forwards
     DEFAULT_FILTERS = "document forwarded"
     FORWARD_FILTERS = list(set(x for x in os.environ.get("FORWARD_FILTERS", DEFAULT_FILTERS).split()))
