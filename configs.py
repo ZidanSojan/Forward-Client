@@ -9,11 +9,11 @@ class Config(object):
     API_ID = 9583161
     API_HASH = "aecf9e2b7c655c4f916564ab6d598a73"
     # Get This From @StringSessionGen_Bot
-    STRING_SESSION = "BAAmjOJNE1ipLYrBRRyyr-NLU9vIXwB4qCi5c5UoxelrrcrXzanCgnIGDAAeY5mL7o5Bh3Synxr7WYemVfFGYo9JOoiTWl-pi4cAl07Tbb_djZJmmruzoT-oAZNID4AyjJqyVt9PnYcoEG7eadwb-bk74elzQ3zVinzDTWrg6PmpoFfKnYFSw6iA1uTQHSTPF_KrIuyKqruoOqnhpRwALSxZQI9mNnzpKbVydU7U_7msyhFp0CvEl2tSr9TSCdjcmmRpdstJifFLz4uXUrXSAfynWHS2b5oNmUxxvQBJAllZ5HDTo6sbzSMck1wxjjMGG09TTxIRD7cwmIso4r_tJuWiAAAAAV_SufwA"
+    STRING_SESSION = "BACSOjkAZ1yKm-8zPpvq6m-s0hVvpSGh-0O-U8KX8I-jvnMdpeHq9R8jQ0Bl2fCiKFRVynz05UgDtcz9Zluw4lK4zGDVsBbjmBVkZcqy2w3Y1gZahS38-5xVPMqAbNVUuCa-0sIq0UV2cwJo3lsUacH2LG-B-NN6eA29D39uQ6Fyle0f5zx_k5L4dymZSswlsuL8kgtKuJ1fuNFQLcMKgyz8WK_5JTFmJjEaehPe6WA4kdFrdFl8nCqiu1FQc2jyAwmJItYMi2HZjqp2wXW6uUJ8cyb4CP80xRLl3GMp7PW72GglPYGvl55gA-ChBS_PTL4lVO9OIQ8CbdcQn4QDFL43Q_G4xAAAAAFf0rn8AA"
     # Forward From Chat ID
-    FORWARD_FROM_CHAT_ID = [-1001604586379]
+    FORWARD_FROM_CHAT_ID = [-1001925654676]
     # Forward To Chat ID
-    FORWARD_TO_CHAT_ID = [-1001300585373]
+    FORWARD_TO_CHAT_ID = [-1001975641001]
     # Filters for Forwards
     DEFAULT_FILTERS = "document forwarded"
     FORWARD_FILTERS = list(set(x for x in os.environ.get("FORWARD_FILTERS", DEFAULT_FILTERS).split()))
