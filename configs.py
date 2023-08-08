@@ -15,7 +15,7 @@ class Config(object):
     # Forward To Chat ID
     FORWARD_TO_CHAT_ID = [-1001300585373]
     # Filters for Forwards
-    DEFAULT_FILTERS = "document forwarded"
+    DEFAULT_FILTERS = "document photo forwarded"
     FORWARD_FILTERS = list(set(x for x in os.environ.get("FORWARD_FILTERS", DEFAULT_FILTERS).split()))
     BLOCKED_EXTENSIONS = list(set(x for x in os.environ.get("BLOCKED_EXTENSIONS", "").split()))
     MINIMUM_FILE_SIZE = os.environ.get("MINIMUM_FILE_SIZE", None)
