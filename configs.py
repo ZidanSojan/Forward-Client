@@ -1,4 +1,4 @@
-# (c) @Kuntejs
+# (c) @Kuntejss
 
 import os
 import heroku3
